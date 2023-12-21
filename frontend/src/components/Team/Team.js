@@ -35,7 +35,7 @@ function Team() {
         <div className="img-wrapper"><img src="https://www.suvidhafoundationedutech.org/img/Bharti_Shendre.jpg" /></div>
         <div className="details">
           <h3>Bharti Shendre</h3>
-          <h5>Treasurer</h5>
+          <h5>Treasure</h5>
           <div className="social-icons">
             <i className="fab fa-facebook-f"></i>
             <i className="fab fa-twitter"></i>
