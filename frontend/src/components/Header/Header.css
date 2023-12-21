@@ -1,0 +1,45 @@
+/* src/components/ImageSlider.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.image-slider {
+  /* position: relative; */
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  /* max-width: 1300px; */
+   /* Adjust the maximum width as needed */
+  /* margin: 0 auto; */
+  overflow: hidden;
+}
+
+.image-slider img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s ease-in-out;
+}
+button
+{
+  font-family: 'Poppins', sans-serif;
+  position: absolute;
+  padding-left: 50px;
+  padding-right: 110px;
+	/* padding: 5px 120px ;/ */
+	background: rgba(255, 255, 255, 0.2);
+	bottom: 40px;
+	left: 70px;
+	width: 100px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px); /* Frosted glass effect */
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+ /* White background with opacity */
+
+
+
+button:hover {
+  background: rgba(8, 8, 8, 0.4); /* Lighten the background on hover */
+}
